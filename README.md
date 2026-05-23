@@ -2,8 +2,16 @@
 ### PES Trust Educational Institutions — Production-Grade ERP
 
 > Handles **4000+ concurrent users** | Role-based | Real-time alerts | Excel bulk upload | At-risk AI engine
-
----
+> A full-stack web application that helps colleges identify and monitor students who are at academic risk based on their attendance and marks data.
+About the Project
+In colleges, it is difficult to manually track every student's performance. This system automates that process by analyzing student data and flagging students who need academic support — helping teachers and HODs take action early.
+Features
+Student, Teacher, HOD and Admin login with role-based access
+Teachers can upload attendance and marks
+System automatically identifies at-risk students
+HOD dashboard to view department-wise at-risk students
+Admin can manage students and faculty
+PDF report generation
 
 ## 📋 Table of Contents
 1. [Tech Stack](#tech-stack)
