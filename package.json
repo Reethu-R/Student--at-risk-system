@@ -1,0 +1,17 @@
+{
+  "name": "student-risk-system",
+  "version": "1.0.0",
+  "description": "Student At-Risk Analysis System — PES Trust",
+  "private": true,
+  "scripts": {
+    "install:all":   "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend":   "cd backend && npm run dev",
+    "dev:frontend":  "cd frontend && npm start",
+    "build":         "cd frontend && npm run build",
+    "start:prod":    "cd backend && pm2 start ecosystem.config.js --env production",
+    "db:setup":      "mysql -u root -p student_risk_db < database/schema.sql"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
